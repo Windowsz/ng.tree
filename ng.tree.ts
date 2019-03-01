@@ -55,7 +55,7 @@ export interface TreeConfig {
 	 * trigger on icon or name click
 	 * @param node
 	 */
-	onClick?: (node?: any) => void;
+	onClick?: (node?: any) => any;
 
 	/**
 	 * trigger on tool button click
